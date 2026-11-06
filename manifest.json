@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "标签栏快照",
+  "description": "保存当前浏览器标签页为快照文件夹，支持排除标签、命名分组和一键恢复。",
+  "version": "0.1.0",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_title": "标签栏快照",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon-16.png",
+      "32": "assets/icon-32.png",
+      "48": "assets/icon-48.png",
+      "128": "assets/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  }
+}
